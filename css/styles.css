@@ -538,4 +538,271 @@ body {
   font-size: 14px;
   margin-top: 10px;
 }
+
+#prodact .prodact-btn .buy-btn a {
+  display: inline-block;
+  position: relative;
+  color: #fff;
+  background-color: #004b4a;
+  width: 374px;
+  margin: 45px auto 0;
+  font-size: 24px;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+#prodact .prodact-btn .buy-btn a::after {
+  position: absolute;
+  display: inline-block;
+  content: "";
+  height: 15px;
+  width: 15px;
+  right: 25px;
+  top: 20px;
+  border-top: 3px solid #fff;
+  border-right: 3px solid #fff;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#prodact .prodact-btn .buy-btn a:hover {
+  opacity: .8;
+}
+
+#prodact .prodact-btn .buy-btn a:hover::after {
+  right: 15px;
+}
+
+#prodact .prodact-btn .img-btn {
+  margin-top: 45px;
+}
+
+#prodact .prodact-btn .img-btn img {
+  width: 374px;
+  height: 57px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#prodact .prodact-btn .img-btn img:hover {
+  opacity: .8;
+}
+
+#salt .salt-wrap {
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/c02_bg1.png");
+  background-position: center top;
+  background-repeat: no-repeat;
+  text-align: center;
+  margin: 0 auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  width: 860px;
+}
+
+#salt .salt-wrap::after {
+  content: "";
+  display: block;
+  height: 38px;
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/c02_bg3.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+}
+
+#salt .salt-wrap .salt-inner {
+  width: 860px;
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/c02_bg2.png");
+  padding-top: 20px;
+}
+
+#salt .salt-wrap .salt-inner .make-salt {
+  width: 464px;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#salt .salt-wrap .salt-inner .make-salt:hover {
+  opacity: .8;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger {
+  color: #4ba200;
+  font-weight: bold;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .yuzu {
+  padding: 0 0 0 25px;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .jinger {
+  padding: 0 25px 0 0;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .effect-btn {
+  width: 240px;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .effect-list {
+  display: block;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .effect-list ul {
+  display: inline-block;
+  text-align: center;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .effect-list ul li {
+  text-align: left;
+}
+
+#salt .salt-wrap .salt-inner .yuzujinger .fas {
+  margin-right: 5px;
+  color: #ffdc05;
+}
+
+#bath {
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/c03_bg.png");
+  background-color: #ffd800;
+  background-repeat: no-repeat;
+  background-position: center 93px;
+  padding-top: 110px;
+  padding-bottom: 60px;
+}
+
+#bath .bath-img1 {
+  padding-top: 45px;
+}
+
+#bath .bath-img2 {
+  position: relative;
+  width: 814px;
+  padding-top: 120px;
+  text-align: center;
+  margin: 0 auto;
+  padding-right: 24px;
+  height: 500px;
+}
+
+#bath .bath-img2 .bath-salt {
+  float: right;
+}
+
+#bath .bath-img2 .bubble {
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+
+#bath .shoppage-btn a {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#bath .shoppage-btn a:hover {
+  opacity: .8;
+}
+
+#shop {
+  padding: 25px 0 60px 0;
+  position: relative;
+}
+
+#shop .cInner::after {
+  content: "";
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/shop_bg1.png");
+  height: 5px;
+  width: 930px;
+  margin: 0 auto;
+  display: block;
+}
+
+#shop .cInner .shop-wrapper {
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/shop_bg2.png");
+  color: #333;
+  width: 930px;
+  position: relative;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#shop .cInner .shop-wrapper::before {
+  content: "";
+  background-image: url("https://www.kneipp.jp/lp/yuzu/shared/img/shop_bg1.png");
+  height: 10px;
+  width: 930px;
+  display: block;
+}
+
+#shop .cInner .shop-wrapper .inner {
+  padding: 20px;
+}
+
+#shop .cInner .shop-wrapper .inner h2 {
+  width: 713px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+#shop .cInner .shop-wrapper .inner h3 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #545454;
+  margin-bottom: 20px;
+}
+
+#shop .cInner .shop-wrapper .inner .text {
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+#shop .cInner .shop-wrapper .inner .att {
+  font-size: 12px;
+  margin-top: 10px;
+}
+
+#shop .cInner .shop-wrapper .inner .nearshop-btn img {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+#footer {
+  width: 100%;
+  background-color: #ffd800;
+  padding: 80px 0 20px;
+}
+
+#footer .link-list {
+  padding-bottom: 20px;
+}
+
+#footer .link-list a {
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+#footer .link-list a:hover {
+  opacity: .8;
+}
+
+#footer .link-list a img {
+  border: 1px solid #ccc;
+}
+
+#footer a {
+  text-decoration: none;
+  border-bottom: 1px solid #333;
+  font-size: 14px;
+}
+
+#footer a:hover {
+  color: inherit;
+  border-bottom: 0px;
+}
+
+#footer p {
+  font-size: 13px;
+}
 /*# sourceMappingURL=styles.css.map */
